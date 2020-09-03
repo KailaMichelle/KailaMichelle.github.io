@@ -1,0 +1,172 @@
+/* font-family: 'Kanit', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    background-color: #F2EDE9;
+    color: #262622;
+}
+
+main {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight {
+    color: #D9501E;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.highlight2 {
+    color: #D9501E;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 150px;
+    padding-top: 120px;
+    /* height: 60vh; */
+}
+/* #F29D7E */
+/* #D9501E */
+.intro {
+    color: #F29D7E;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-list li {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #262622;
+}
+
+.nav-list li:hover {
+    color: #D9501E;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer {
+    list-style-type: none;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.footer-item {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #262622;
+    margin: 20px;
+}
+
+.footer-item:hover {
+    color: #D9501E;
+}
+
+#about h1 {
+    font-size: 3rem;
+}
+
+#about p {
+    font-size: 2rem;
+}
+
+.technology h3 {
+    font-size: 2rem;
+}
+
+.technology p {
+    font-size: 1.5rem;
+}
+
+.image {
+    max-height: 500px;
+}
+
+.description {
+    /* max-width: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    padding: 20px;
+    /* margin: 30px; */
+    /* max-width: 300px; */
+}
+
+.text {
+    max-width: 800px;
+    /* margin: 20px; */
+}
+
+.text2 {
+    margin: 10px;
+}
+
+.text-tech {
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.projects {
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .image {
+        max-height: 200px;
+    }
+    .container {
+        width: 90vw;
+        /* margin: 90px 20px; */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
