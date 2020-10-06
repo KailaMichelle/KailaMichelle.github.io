@@ -1,4 +1,12 @@
 /* font-family: 'Kanit', sans-serif; */
+:root {
+    --offwhite: #f2f2f2;
+    --lightgrey: #a6a6a6;
+    --mediumgrey: #595959;
+    --darkgrey: #262626;
+    --black: #0d0d0d;
+}
+
 
 * {
     margin: 0;
