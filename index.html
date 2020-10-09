@@ -15,94 +15,206 @@
     <title>K Moreno Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav class="nav">
-            <ul class="nav-list">
-                <a href="#about"><li>About</li></a>/
-                <a href="#projects"><li>Portfolio</li></a>/
-                <a href="mailto:kaila22@hotmail.com"><li>Contact</li></a>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div id="about">
+    <div class="content">
+        <header>
+            <nav class="nav">
+                <a href="https://kailamichelle.github.io/" class="logo">KM</a>
+                <!-- This is what enables us to click the hamburger menu on and off -->
+                <input type="checkbox" class="menu-btn" id="menu-btn" />
+                <!-- Icon -->
+                <!-- For attribute has to match id of input -->
+                <label for="menu-btn" class="menu-icon"><i class="fas fa-bars nav-icon"></i></label>
+                <label for="menu-btn" class="menu-icon2"><i class="fas fa-times nav-icon"></i></label>
+                <ul class="nav-list">
+                    <a href="#about" class="navitem"><li>About</li></a>
+                    <a href="#skills" class="navitem"><li>Skills</li></a>
+                    <a href="#projects" class="navitem"><li>Projects</li></a>
+                    <a href="#contact" class="navitem"><li>Contact</li></a>
+                    <a href="https://drive.google.com/file/d/1vy_qDR8G37h2NWssbJFrHQUuEjzIwyNV/view?usp=sharing" class="navitem"><li>Resume</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="container intro">
                 <div>
-                    <h1>Hi I'm Kaila.</h1>
+                    <h1 class="name">Hi I'm Kaila</h1> 
                 </div>
-                <div>
-                    <p>Graphic Designer turned <span class="highlight">Software Engineer</span>.</p>
+                <div class="arrow">
+                    <a href="#about"><i class="fas fa-angle-double-down arrow-icon"></i></a>
                 </div>
-                <div>
-                    <p>I love to create clean apps with seamless user experiences.</p>
+            </section>
+    
+            <section class="container">
+                <div id="about">
+                    <div class="profcontainer">
+                        <img src="images/kaila.jpeg" alt="profile image" class="profimage">
+                    </div>
+                    <div class="bio-container">
+                        <h2 class="title">Graphic Designer <i class="fas fa-angle-double-right title"></i> Software Engineer.</h2>
+                        <p class="bio">I currently live in Los Angeles. I am a recent grad of General Assembly's Software Engineering Immersive program. In addition I have my bachelor's in Communication Design with a focus in Graphic Design. I am a design forward engineer with a strong attention to detail which gives me the ability to create clean apps with seamless user experiences. Check out some of my projects below!</p>
+                    </div>
                 </div>
+                <div class="arrow">
+                    <a href="#skills"><i class="fas fa-angle-double-down arrow-icon"></i></a>
+                </div>
+            </section>
+
+            <section class="container">
+                <div id="skills">
+                    <div class="skills-div">
+                        <h2 class="skills-title">Technical Knowledge</h2>
+                    </div>
+                    <div class="skills-div">
+                        <ul class="skills-list">
+                            <li><i class="fab fa-html5 skills-item"></i></li>
+                            <li><i class="fab fa-css3 skills-item"></i></li>
+                            <li><i class="fab fa-bootstrap skills-item"></i></li>
+                            <li><i class="fab fa-js-square skills-item"></i></li>
+                            <li><i class="fab fa-node-js skills-item"></i></li>
+                            <li><i class="fab fa-react skills-item"></i></li>
+                            <li><i class="fab fa-python skills-item"></i></li>
+                            <li><i class="fab fa-git-square skills-item"></i></li>
+                            <li><img src="./images/AdobeSuite.png" class="skills-item3" alt="Adobe Suite icon"></li>
+                            <li><img src="./images/Bulma.png" class="skills-item2" alt="Bulma icon"></li>
+                            <li><img src="./images/MaterialUI.png" class="skills-item3" alt="MaterialUI icon"></li>
+                            <li><img src="./images/Express.png" class="skills-item2" alt="Express icon"></li>
+                            <li><img src="./images/django.png" class="skills-item2" alt="Django icon"></li>
+                            <li><img src="./images/MongoDB.png" class="skills-item2" alt="MongoDB icon"></li>
+                            <li><img src="./images/Postgres.png" class="skills-item3" alt="Postgres icon"></li>
+                        </ul>
+                    </div>
+                    <div class="arrow">
+                        <a href="#projects"><i class="fas fa-angle-double-down arrow-icon"></i></a>
+                    </div>
+                </div>
+            </section>
+    
+    
+            <section class="container">
+                <div id="projects">
+                    <div class="projects">
+                        <div class="description">
+                            <h3 class="text2">TRAVELING VEGAN</h3>
+                            <a href="https://travelingveganblog.herokuapp.com/"><img class="image" src="./images/TravelingVegan.png" alt="Vegan Food Blog"></a>
+                        </div>
+                        <div class="description"> 
+                            <p class="text">Vegan blog that allows users to share and save their favorite vegan restaurants. Finding vegan food can sometimes be tough especially when traveling. This site will make sure you can always find something good to eat and get recommendations from the communities that knows best! This was my Capstone project at General Assembly. MERN stack with full crud, authorization and authentication.</p>
+                            <p>GitHub: <a href="https://github.com/KailaMichelle/travelingVegan-client">github.com/KailaMichelle/travelingVegan-client</a></p>
+                            <ul class="tech-list">
+                                <li><img src="./images/MongoDB.png" class="icon2" alt="MongoDB icon"></li>
+                                <li><i class="fab fa-js-square icon"></i></li>
+                                <li><i class="fab fa-react icon"></i></li>
+                                <li><i class="fab fa-node-js icon"></i></li>
+                                <li><img src="./images/Express.png" class="icon2" alt="Express icon"></li>
+                                <li><i class="fab fa-html5 icon"></i></li>
+                                <li><i class="fab fa-css3 icon"></i></li>
+                                <li><img src="./images/MaterialUI.png" class="icon3" alt="MaterialUI icon"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="description">
+                            <h3 class="text2">WAYFARER</h3>
+                            <a href="https://wayfarer-sei12-moreno.herokuapp.com/"><img class="image" src="./images/Wayfarer.png" alt="Travel Blog"></a>
+                        </div>
+                        <div class="description">
+                            <p class="text">A travel community for users to share city-specific tips ("posts" or "logs") about their favorite locations around the world. This app was built using Django. We had a three person team and a week to complete. Full stack application with full crud and auth.</p>
+                            <p>GitHub: <a href="https://github.com/SabantuYusuf/wayfarer">github.com/SabantuYusuf/wayfarer</a></p>
+                            <ul class="tech-list">
+                                <li><img src="./images/django.png" class="icon2" alt="Django icon"></li>
+                                <li><i class="fab fa-js-square icon"></i></li>
+                                <li><i class="fab fa-css3 icon"></i></li>
+                                <li><i class="fab fa-html5 icon"></i></li>
+                                <li><i class="fab fa-python icon"></i></li>
+                                <li><img src="./images/Bulma.png" class="icon2" alt="Bulma icon"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="description">
+                            <h3 class="text2">CRUD</h3>
+                            <a href="https://crud-app-moreno.herokuapp.com/"><img class="image" src="./images/Crud.png" alt="Software Engineering Website"></a>
+                        </div>
+                        <div class="description">
+                            <p class="text">Website that connects developers to resources and networking in their area. We want to give users access to updated resources based on personal interests and professions. This was a two person collaboration and my first full stack application. 
+                            </p>
+                            <p>GitHub: <a href="https://github.com/KailaMichelle/Project-One">https://github.com/KailaMichelle/Project-One</a></p>
+                            <ul class="tech-list">
+                                <li><img src="./images/MongoDB.png" class="icon2" alt="MongoDB icon"></li>
+                                <li><img src="./images/Express.png" class="icon2" alt="Express icon"></li>
+                                <li><i class="fab fa-node-js icon"></i></li>
+                                <li><i class="fab fa-js-square icon"></i></li>
+                                <li><i class="fab fa-css3 icon"></i></li>
+                                <li><i class="fab fa-html5 icon"></i></li>
+                                <li><i class="fab fa-bootstrap icon"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="description">
+                            <h3 class="text2">CAMPHUMOR</h3>
+                            <a href="https://mighty-cliffs-40984.herokuapp.com/"><img class="image" src="./images/CampHumor.png" alt="Podcast Website"></a>
+                        </div>
+                        <div class="description">
+                            <p class="text">Collaboration with a UX/DI cohort. We had 4 engineers and 2 designers and were given a prompt of 'Comedy Podcast'. We had two days to complete the project which taught us the value of clear communication, setting clear expectations, project planning, and collaboration.</p>
+                            <p>GitHub: <a href="https://github.com/KailaMichelle/TFTF">github.com/KailaMichelle/TFTF</a></p>
+                            <ul class="tech-list">
+                                <li><img src="./images/MongoDB.png" class="icon2" alt="MongoDB icon"></li>
+                                <li><img src="./images/Express.png" class="icon2" alt="Express icon"></li>
+                                <li><i class="fab fa-node-js icon"></i></li>
+                                <li><i class="fab fa-js-square icon"></i></li>
+                                <li><i class="fab fa-css3 icon"></i></li>
+                                <li><i class="fab fa-html5 icon"></i></li>
+                                <li><i class="fab fa-bootstrap icon"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="description">
+                            <h3 class="text2">TAMAGOTCHI</h3>
+                            <a href="https://tamagotchi-moreno.netlify.app/"><img class="image" src="./images/Tamagotchi.png" alt="Tamagotchi Game"></a>
+                        </div>
+                        <div class="description">
+                            <p class="text">Interactice tamagotchi game that I built for my first project in my Software Engineering Immersive program through General Assembly. The game gives the user the ability to raise a pet. This version is sped up for demo purposes. I made the illustrations in Adobe Illustrator.</p>
+                            <p>GitHub: <a href="https://github.com/KailaMichelle/project-zero">github.com/KailaMichelle/project-zero</a></p>
+                            <ul class="tech-list">
+                                <li><i class="fab fa-js-square icon"></i></li>
+                                <li><i class="fab fa-css3 icon"></i></li>
+                                <li><i class="fab fa-html5 icon"></i></li>
+                                <li><img src="./images/Adobe.png" class="icon3" alt="Adobe Illustrator icon"></li>
+                            </ul>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="container">
+                <div id="contact">
+                    <div>
+                        <h2 class="connect">Let's Connect</h2>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    
+        <footer id="footer">
+            <div class="contact">
+                <ul class="footer">
+                    <li>
+                        <a href="https://www.linkedin.com/in/kailahobbs/"><i class="fab fa-linkedin footer-item"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kailahobbs/"><i class="fab fa-github footer-item"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:kaila22@hotmail.com"><i class="far fa-envelope footer-item"></i></a>
+                    </li>
+                </ul>
             </div>
-        </div>
-
-        <div class="container">
-            <div id="projects">
-                <div class="projects">
-                    <div class="description">
-                        <a href="https://travelingveganblog.herokuapp.com/"><img class="image" src="./images/TravelingVegan.png" alt="Vegan Food Blog"></a>
-                    </div class="description">
-                    <div class="description text"> 
-                        <h3 class="text2">Traveling Vegan</h3>
-                        <p class="text2">Vegan blog that allows users to share and save their favorite vegan restaurants. Finding vegan food can sometimes be tough especially when traveling. This site will make sure you can always find something good to eat and get recommendations from the communities that knows best!</p>
-                        <p class="text-tech highlight2">MERN Stack - MongoDB / Express / React / Node - JavaScript - CSS - HTML5 - Material UI</p>
-                    </div>
-                </div>
-                <div class="projects">
-                    <a href="https://wayfarer-sei12-moreno.herokuapp.com/"><img class="image" src="./images/Wayfarer.png" alt="Travel Blog"></a>
-                    <div class="description text">
-                        <h3 class="text2">Wayfarer</h3>
-                        <p class="text2">A travel community for users to share city-specific tips ("posts" or "logs") about their favorite locations around the world. This app was built using Django.</p>
-                        <p class="text-tech highlight2">Django - JavaScript - CSS - HTML5 - Python - Bulma - Pillow - Paperclip</p>
-                    </div>
-                </div>
-                <div class="projects">
-                    <a href="https://crud-app-moreno.herokuapp.com/"><img class="image" src="./images/Crud.png" alt="Software Engineering Website"></a>
-                    <div class="description text">
-                        <h3 class="text2">Crud</h3>
-                        <p class="text2">Website that connects developers to resources and networking in their area. We want to give users access to updated resources based on personal interests and professions.
-                        </p>
-                        <p class="text-tech highlight2">Express - Node.js - EJS - Nodemon - MongoDB - Mongoose - HTML5 - CSS - Bootstrap</p>
-                    </div>
-                </div>
-                <div class="projects">
-                    <a href="https://mighty-cliffs-40984.herokuapp.com/"><img class="image" src="./images/CampHumor.png" alt="Podcast Website"></a>
-                    <div class="description text">
-                        <h3 class="text2">CampHumor</h3>
-                        <p class="text2">Collaboration with a UX/DI cohort. We had 4 engineers and 2 designers and were given a prompt of 'Comedy Podcast'. We had two days to complete the project.</p>
-                        <p class="text-tech highlight2">Express - Node.js - EJS - Nodemon - MongoDB - Mongoose - HTML5 - CSS - Bootstrap - JavaScript</p>
-                    </div>
-                </div>
-                <div class="projects">
-                        <a href="https://tamagotchi-moreno.netlify.app/"><img class="image" src="./images/Tamagotchi.png" alt="Tamagotchi Game"></a>
-                    <div class="description text">
-                        <h3 class="text2">Tamagotchi</h3>
-                        <p class="text2">Interactice tamagotchi game that I built for my first project in SEI-12. The game gives the user the ability to raise a pet.</p>
-                        <p class="text-tech highlight2">JavaScript - HTML5 - CSS</p>
-                    </div>
-                </div>
-        </div>
-    </main>
-
-    <footer id="contact">
-        <div class="contact">
-            <ul class="footer">
-                <li>
-                    <a href="https://www.linkedin.com/in/kailahobbs/"><i class="fab fa-linkedin footer-item"></i></a>
-                </li>
-                /
-                <li>
-                    <a href="https://www.linkedin.com/in/kailahobbs/"><i class="fab fa-github footer-item"></i></a>
-                </li>
-                /
-                <li>
-                    <a href="mailto:kaila22@hotmail.com"><i class="far fa-envelope footer-item"></i></a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+            <div class="contact">
+                &copy; <script>document.write( new Date().getFullYear() );</script> Kaila Moreno
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
