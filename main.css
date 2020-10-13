@@ -347,12 +347,12 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 15px;
 }
 
 footer {
     background-color: var(--white);
-    height: 20vh;
+    /* height: 20vh; */
 }
 
 .footer {
