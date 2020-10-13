@@ -60,6 +60,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    min-height: 70vh;
 }
 
 a {
@@ -346,7 +347,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
+    padding-bottom: 20px;
 }
 
 footer {
