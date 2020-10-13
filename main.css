@@ -329,10 +329,14 @@ a {
 
 /* CONTACT */
 #contact {
-    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connect {
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-size: 2.4rem;
 }
 
@@ -342,7 +346,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    min-height: 20vh;
 }
 
 footer {
@@ -401,17 +405,14 @@ footer {
 
     .icon {
         font-size: 2rem;
-        /* padding: 15px; */
     }
     
     .icon2 {
         width: 100px;
-        /* padding: 15px; */
     }
     
     .icon3 {
         height: 60px;
-        /* padding: 15px; */
     }
 
   }
