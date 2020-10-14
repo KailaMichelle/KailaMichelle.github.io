@@ -14,7 +14,8 @@
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
     background-color: var(--white);
-    color: var(--black);
+    color: var(--darkgrey);
+    font-weight: 300;
 }
 
 main {
@@ -27,7 +28,6 @@ main {
 
 body {
     overflow: auto;
-    /* height: 100vh; */
 }
 
 .content {
@@ -48,10 +48,14 @@ body {
 .arrow-icon:hover {
     cursor: pointer;
 }
-
+/* 
 .highlight {
-    color: var(--mediumgrey);
-    font-weight: 700;
+    color: var(--darkgrey) !important;
+    font-weight: 500;
+} */
+
+.highlight:hover {
+    color: var(--lightgrey);
 }
 
 .container {
@@ -163,7 +167,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
 }
 
@@ -183,19 +187,32 @@ a {
 }
 
 .title {
-    color: var(--mediumgrey);
     font-size: 1.5rem;
-    font-weight: 700;
-    padding-bottom: 20px;
+    font-weight: 400;
 }
 
-.bio-container {
-    padding: 40px
+.titleX {
+    font-size: 1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
+
 .bio {
     font-size: 1.2rem !important;
     line-height: 2rem;
     max-width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bioicon {
+    padding-right: 5px;
+}
+
+.bioicon2 {
+    padding-right: 5px;
+    padding-left: 30px;
 }
 
 /* TECHNOLOGY */
@@ -212,10 +229,9 @@ a {
 
 .skills-title {
     padding-top: 30px;
-    color: var(--mediumgrey);
-    font-weight: 700;
-    font-size: 1.8rem;
     padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .technology h3 {
@@ -315,11 +331,11 @@ a {
     max-width: 900px;
 }
 
-.text2 {
+/* .text2 {
     padding: 30px;
     font-size: 1.6rem;
     color: var(--darkgrey)
-}
+} */
 
 .tech-list {
     display: flex;
@@ -379,6 +395,10 @@ footer {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
+    #about {
+        padding-top: 100px;
+    }
+
     .image {
         max-height: 170px;
         overflow: hidden;
