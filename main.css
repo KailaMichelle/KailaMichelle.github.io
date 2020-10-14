@@ -38,21 +38,21 @@ body {
 }
 
 .arrow {
-    font-size: 1.8rem;
     align-self: center;
     padding: 50px;
     -webkit-animation: arrow 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
     animation: arrow 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
 }
 
+.arrow-icon {
+    color: var(--mediumgrey);
+    font-size: 1.8rem;
+}
+
 .arrow-icon:hover {
     cursor: pointer;
+    color: var(--lightgrey);
 }
-/* 
-.highlight {
-    color: var(--darkgrey) !important;
-    font-weight: 500;
-} */
 
 .highlight:hover {
     color: var(--lightgrey);
