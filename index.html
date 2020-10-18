@@ -17,20 +17,15 @@
 <body>
     <div class="content">
         <header>
-            <nav class="nav">
+            <nav id="nav" class="nav">
                 <a href="https://kailamichelle.github.io/" class="logo">KM</a>
-                <!-- This is what enables us to click the hamburger menu on and off -->
                 <input type="checkbox" class="menu-btn" id="menu-btn" />
-                <!-- Icon -->
-                <!-- For attribute has to match id of input -->
                 <label for="menu-btn" class="menu-icon"><i class="fas fa-bars nav-icon"></i></label>
                 <label for="menu-btn" class="menu-icon2"><i class="fas fa-times nav-icon"></i></label>
                 <ul class="nav-list">
                     <a href="#about" class="navitem" id="navitem1"><li>About</li></a>
-                    <a href="#skills" class="navitem" id="navitem2"><li>Skills</li></a>
                     <a href="#projects" class="navitem" id="navitem3"><li>Projects</li></a>
                     <a href="#contact" class="navitem" id="navitem4"><li>Contact</li></a>
-                    <!-- <a href="https://drive.google.com/file/d/11V-Nz4g_nGj4YrdD8MUi7kWbjzQtnod4/view?usp=sharing" class="navitem"><li>Resume</li></a> -->
                     <a href="./images/Moreno Resume_02.pdf" class="navitem" download><li class="resume">Resume</li></a>
                 </ul>
             </nav>
@@ -55,19 +50,10 @@
                         <p class="bio">General Assembly Software Engineering - 2020<br>Bachelor of Arts in Communicaton Design - 2015
                         </p>
                         <p class="bio">
-                        Design forward engineer with a strong attention to detail which gives me the ability to create clean apps with seamless user experiences. Open to work and collaborations.
+                        Design forward engineer with a strong attention to detail which gives me the ability to create clean apps with seamless user experiences. Open to work and collaborations, lets connect! 
                         </p>  
-                        <!-- <p class="bio">Check out some of my projects below!</p> -->
                         <p class="bio"><i class="fas fa-map-marker-alt bioicon"></i> <a href="https://goo.gl/maps/i12n6bmuvm47BmdY9" class="highlight">Los Angeles, CA</a> <i class="fas fa-paper-plane bioicon2"></i> <a href="mailto:@kaila22@hotmail.com" class="highlight">Connect</a></p>  
                     </div>
-                </div>
-            </section>
-
-            <section class="container">
-                <div id="skills">
-                    <div class="skills-div">
-                        <h2 class="skills-title">Technical Knowledge</h2>
-                    </div>​​​​​​​​​​​​​​​​​​​
                     <div class="skills-div">
                         <ul class="skills-list">
                             <li><i class="fab fa-html5 skills-item"></i></li>
@@ -90,17 +76,33 @@
                 </div>
             </section>
     
-    
             <section class="container">
                 <div id="projects">
                     <div class="projects">
                         <div class="description">
-                            <h3 class="title">Traveling Vegan</h3>
                             <a href="https://travelingveganblog.herokuapp.com/"><img class="image" src="./images/TravelingVegan.png" alt="Vegan Food Blog"></a>
                         </div>
                         <div class="description"> 
-                            <p class="text">Vegan blog that allows users to share and save their favorite vegan restaurants. Finding vegan food can sometimes be tough especially when traveling. This site will make sure you can always find something good to eat and get recommendations from the communities that knows best! This was my Capstone project at General Assembly. MERN stack with full crud, authorization and authentication.</p>
-                            <p class="text">GitHub: <a href="https://github.com/KailaMichelle/travelingVegan-client">github.com/KailaMichelle/travelingVegan-client</a></p>
+                            <div class="links">
+                                <!-- Traveling Vegan   -->
+                                <a href="https://github.com/KailaMichelle/travelingVegan-client" class="links"><i class="fab fa-github-alt links"></i></a>
+                                <a href="https://travelingveganblog.herokuapp.com" class="links"><i class="fas fa-external-link-alt links"></i></a> 
+                            </div>
+                            <div class="text">
+                                <p> 
+                                    Vegan blog that allows users to share and save their favorite vegan restaurants. Finding vegan food can sometimes be tough especially when traveling. This site will make sure you can always find something good to eat and get recommendations from the communities that knows best! This was my Capstone project at General Assembly. MERN stack with full crud, authorization and authentication. 
+                                </p>
+                            </div>
+                            <!-- <ul class="links">
+                                <li>
+                                    <a href="https://github.com/KailaMichelle/travelingVegan-client" class="links"><i class="fab fa-github-alt links"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://travelingveganblog.herokuapp.com" class="links"><i class="fas fa-external-link-alt links"></i></a>
+                                </li>
+                            </ul> -->
+                            <!-- <p class="text">App: <a href="https://travelingveganblog.herokuapp.com">github.com/KailaMichelle/travelingVegan-client</a></p>
+                            <p class="text">GitHub: <a href="https://github.com/KailaMichelle/travelingVegan-client">github.com/KailaMichelle/travelingVegan-client</a></p> -->
                             <ul class="tech-list">
                                 <li><img src="./images/MongoDB.png" class="icon2" alt="MongoDB icon"></li>
                                 <li><i class="fab fa-js-square icon"></i></li>
@@ -110,6 +112,12 @@
                                 <li><i class="fab fa-html5 icon"></i></li>
                                 <li><i class="fab fa-css3 icon"></i></li>
                                 <li><img src="./images/MaterialUI.png" class="icon3" alt="MaterialUI icon"></li>
+                                <!-- <li>
+                                    <a href="https://github.com/KailaMichelle/travelingVegan-client" class="links"><i class="fab fa-github-alt links"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://travelingveganblog.herokuapp.com" class="links"><i class="fas fa-external-link-alt links"></i></a> 
+                                </li> -->
                             </ul>
                         </div>
                     </div>

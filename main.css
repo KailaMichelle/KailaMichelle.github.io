@@ -1,6 +1,6 @@
 /* font-family: 'Kanit', sans-serif; */
 :root {
-    --white: #f2f2f2;
+    --white: #fff;
     --lightgrey: #a6a6a6;
     --mediumgrey: #595959;
     --darkgrey: #262626;
@@ -87,6 +87,12 @@ a {
     z-index: 3;
 }
 
+.floatingNav {
+  width: 100vw; 
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+}
+
 .nav-list {
     list-style-type: none;
     margin: 0;
@@ -109,6 +115,7 @@ a {
 
 .nav-list li:hover {
     color: var(--lightgrey);
+    /* text-decoration: underline dotted orange; */
 }
 
 .nav-icon {
@@ -215,37 +222,11 @@ a {
     padding-left: 30px;
 }
 
-/* TECHNOLOGY */
-#skills {
-    /* min-height: 90vh; */
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.skills-title {
-    padding-top: 30px;
-    padding-bottom: 40px;
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-
-.technology h3 {
-    font-size: 2rem;
-}
-
-.technology p {
-    font-size: 1.5rem;
-}
-
 .skills-div {
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
+    padding-top: 40px;
 }
 
 .skills-list {
@@ -303,18 +284,25 @@ a {
     align-items: center;
 }
 
+.project-title {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    /* align-self: flex-start; */
+}
+
 .image {
-    border: 1px solid var(--lightgrey);
+    /* border: 1px solid var(--lightgrey); */
     max-height: 500px;
     max-width: 100vw;
-    filter: grayscale(100%);
-    transition: .5s ease-in-out;
+    /* filter: grayscale(100%); */
+    /* transition: .5s ease-in-out; */
 }
 
 .image:hover {
-    border: none;
+    cursor: pointer;
+    /* border: none;
     filter: none;
-    transform: scale(1.1);
+    transform: scale(1.1); */
 }
 
 .description {
@@ -325,16 +313,27 @@ a {
 }
 
 .text {
-    padding: 30px;
+    padding-top: 15px;
     font-size: 1.2rem;
     color: var(--darkgrey);
     max-width: 900px;
 }
 
-/* .text2 {
-    padding: 30px;
-    font-size: 1.6rem;
-    color: var(--darkgrey)
+.links {
+    font-size: 2rem;
+    align-self: flex-end;
+    /* padding-top: 10px; */
+    padding-left: 15px;
+}
+
+.project-descrip {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
+/* li {
+    text-decoration: none;
 } */
 
 .tech-list {
@@ -400,7 +399,7 @@ footer {
     }
 
     .image {
-        max-height: 170px;
+        max-height: 200px;
         overflow: hidden;
     }
     .container {
