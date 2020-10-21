@@ -1,11 +1,22 @@
 console.log('Hello World')
 
-// NavBar 
+// Variables
 const about = document.getElementById('navitem1')
 const projects = document.getElementById('navitem3')
 const contact = document.getElementById('navitem4')
 const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('nav')
+const travel = document.getElementById('travel')
+const travelDescrip = document.getElementById('travel-descrip')
+const wayfarer = document.getElementById('wayfarer')
+const wayfarerDescrip = document.getElementById('wayfarer-descrip')
+const crud = document.getElementById('crud')
+const crudDescrip = document.getElementById('crud-descrip')
+const camphumor = document.getElementById('camphumor')
+const campDescrip = document.getElementById('camphumor-descrip')
+const tamagotchi = document.getElementById('tamagotchi')
+const tamagotchiDescrip = document.getElementById('tamagotchi-descrip')
+
 
 // Event listeners
 window.addEventListener('resize', windowResize);
