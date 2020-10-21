@@ -390,14 +390,10 @@ footer {
     color: var(--lightgrey);
 }
 
-@media (max-width: 1300px){
-    
-}
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 900px){
     .image {
-        max-height: 50vh;
+        max-height: 40vh;
         overflow: hidden;
     }
 
