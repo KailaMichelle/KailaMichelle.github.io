@@ -414,7 +414,7 @@ footer {
     }
 
     .image {
-        height: 35vh;
+        max-height: 35vh;
         overflow: hidden;
     }
 
@@ -456,7 +456,7 @@ footer {
     }
 
     .image {
-        height: 25vh;
+        max-height: 25vh;
         overflow: hidden;
     }
 
@@ -507,7 +507,7 @@ footer {
 @media only screen and (max-width: 400px) {
 
     .image {
-        height: 20vh;
+        max-height: 20vh;
         overflow: hidden;
     }
 
