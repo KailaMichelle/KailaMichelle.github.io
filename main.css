@@ -397,7 +397,7 @@ footer {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 900px){
     .image {
-        height: 50vh;
+        max-height: 50vh;
         overflow: hidden;
     }
 
