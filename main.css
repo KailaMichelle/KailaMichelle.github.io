@@ -347,7 +347,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 70vh; */
+    height: 70vh;
 }
 
 .connect {
@@ -456,7 +456,7 @@ footer {
     }
 
     .image {
-        height: 32vh;
+        height: 25vh;
         overflow: hidden;
     }
 
